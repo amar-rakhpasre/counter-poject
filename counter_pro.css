@@ -1,0 +1,48 @@
+*{
+    height: auto;
+    width: auto;
+}
+
+
+#main {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+#count {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    /* border: 2px black solid; */
+    font-size: 1090%;
+}
+
+#allbtn {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+.btn {
+    height: 40px;
+    width: 150px;
+    margin: 2px;
+    border-radius: 4px;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(120, 159, 201);
+    color: white;
+    transition: 1s;
+}
+.btn:hover{
+    background-color: rgb(57, 110, 166);
+    transition-duration: 0.5s;
+    transition-property: all;
+    transition: linear;
+    
+}
+
+#reset {
+    width: 100px;
+}
